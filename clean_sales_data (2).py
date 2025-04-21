@@ -55,7 +55,7 @@ df.columns = df.columns.str.lower().str.replace(' ', '_')
 # 8. Save Cleaned Data
 # ============================
 df.to_csv("cleaned_sales_data.csv", index=False)
-print("\n✅ Cleaned sales data saved as 'cleaned_sales_data.csv'")
+print("\n Cleaned sales data saved as 'cleaned_sales_data.csv'")
 
 # ============================
 # 9. Summary
